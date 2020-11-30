@@ -5,7 +5,9 @@ const app = express();
 connectDB();
 // middle ware excepts JSON data to API
 app.use(express.json({ extended: false }));
-
+// routes defined
+app.use('/', require('./routes/index'))
+app.use('/api/url', require('./routes/url'))
 
 const PORT = 5000;
 
