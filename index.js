@@ -1,6 +1,8 @@
 const express = require('express');
+const connectDB = require('./config/db');
 const app = express();
-
+// connect to DB
+connectDB();
 // middle ware excepts JSON data to API
 app.use(express.json({ extended: false }));
 
