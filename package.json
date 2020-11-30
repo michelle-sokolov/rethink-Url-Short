@@ -4,17 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/michelle-sokolov/rethink-Url-Short.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/michelle-sokolov/rethink-Url-Short/issues"
+  "dependencies": {
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.17",
+    "short-url": "0.0.1",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
   },
-  "homepage": "https://github.com/michelle-sokolov/rethink-Url-Short#readme"
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
