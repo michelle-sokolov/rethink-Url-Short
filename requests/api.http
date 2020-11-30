@@ -1,0 +1,8 @@
+// extension needed: REST Client
+POST http://localhost:5000/api/url/shorten
+Content-Type: application/json
+
+{
+    // give static URL for now
+    "longUrl": "https://www.petfinder.com/dog/abbie-49829171/ca/sun-valley/frankie-lola-friends-animal-rescue-foundation-ca2718/"
+}
