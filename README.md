@@ -1,6 +1,6 @@
 # rethink-Url-Short
 
-This is the backend portion for a URL Shortener application
+This is the backend portion for a URL Shortener application.
 To initialize:
 - open application in VS Code
 - install 'REST Client' extension
